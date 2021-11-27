@@ -1,0 +1,18 @@
+---
+title: When Minimalism Meets Perfection - Yet Another Make-over for my Static Blog Site
+date: 2020-07-19
+---
+There is a very fine line between minimalism and _simplicity_. While both words are often used interchangeably, they don't always mean the same thing. In my opinion, minimalism is the art of using the least quantity of elements to create the maximum efficiency and effect.
+
+Simplicity, however, is the state of being simple in quality, which is the opposite of complexity.
+
+
+My old design has been VERY simplistic. The blog posts where clunky, the navigation was counter intitutive and lacked some microtransactions that improved the UX.
+
+The real power of the JAMStack and the SSG, makes it very easy to change the look and feel of the site quickly. Using Eleventy, it was just a matter of changing the CSS, and a couple of Nunjucks template files, and I was good to go. It all took a few hours of work, and is deployed instantly by Github and Vercel.
+
+I opted to add Facebook comments widget, to make it quite easy for anyone with a FB account (who doesn't?) to leave a comment without any signing up or other hassles. Another big issue in static websites,beside the comments, is the search system. This issue is usually solved wih tools like Vue.js or React.js, but I really don't have the time to implement a complex system, and it seems counter-minimalist to me. 
+
+Instead, I used Nunjucks to create a JSON index of the website everytime it is deployed, and then using vanilla JS, this index is easily queried and the results are updated instantly. Sweet, minimal and quite effective.
+
+I hope you like the new design. I'd appreciate it you share your comments and ideas about the design, or just the blog overall, in the comments section below.
